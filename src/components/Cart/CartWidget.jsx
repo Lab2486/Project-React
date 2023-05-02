@@ -1,5 +1,5 @@
 import "./CartWidget.css";
-function Cart() {
+function CartWidget() {
   return (
     <div className="cartContenedor">
       <a href="#">
@@ -19,4 +19,4 @@ function Cart() {
   );
 }
 
-export default Cart;
+export default CartWidget;

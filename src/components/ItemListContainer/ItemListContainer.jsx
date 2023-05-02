@@ -1,12 +1,12 @@
-function ItemContainer(props) {
-  const ItemContainerBg = { background: props.bgColor };
+function ItemListContainer(props) {
+  const ItemListContainerBg = { background: props.bgColor };
   return (
     <>
-      <div className="ItemContainer" style={ItemContainerBg}>
+      <div className="ItemListContainer" style={ItemListContainerBg}>
         <h1>{props.greeting}</h1>
       </div>
     </>
   );
 }
 
-export default ItemContainer;
+export default ItemListContainer;

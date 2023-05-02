@@ -1,6 +1,6 @@
 import "./NavbarStyles.css";
 import Button from "./Buttons";
-import Cart from "../Cart/CartWidget";
+import CartWidget from "../Cart/CartWidget";
 function All() {
   alert("All Pochimons");
 }
@@ -43,7 +43,7 @@ function Navbar() {
             </li>
           </ul>
         </div>
-        <Cart></Cart>
+        <CartWidget />
       </nav>
     </>
   );
