@@ -24,7 +24,7 @@ function Navbar() {
         <a className="logo" href="index.html">
           <img
             className="navbar-brand"
-            src="/public/pokemonion-logo.png"
+            src="public/pokemonion-logo.png"
             alt=""
           />
         </a>
