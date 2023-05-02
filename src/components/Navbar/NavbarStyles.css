@@ -1,0 +1,40 @@
+nav {
+  background-color: rgb(251, 251, 251);
+  display: flex;
+  justify-content: space-between;
+  height: 70px;
+  align-items: center;
+}
+.navbar-brand {
+  width: 200px;
+}
+li {
+  list-style: none;
+  margin: 0 1rem;
+}
+
+li button:hover {
+  background-color: aqua;
+}
+ul {
+  display: flex;
+}
+
+.btnNav {
+  width: 90px;
+  height: 50px;
+  border-style: none;
+  border-radius: 10px;
+  color: rgb(7 104 159);
+  font-size: 1.4rem;
+}
+
+.btnNav:hover {
+  box-shadow: 0 0 10px black;
+}
+
+.cartContenedor {
+  width: 5%;
+  text-align: end;
+  margin-right: 10px;
+}
