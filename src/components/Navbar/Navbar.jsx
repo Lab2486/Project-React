@@ -21,12 +21,8 @@ function Navbar() {
   return (
     <>
       <nav>
-        <a className="logo" href="index.html">
-          <img
-            className="navbar-brand"
-            src="public/pokemonion-logo.png"
-            alt=""
-          />
+        <a className="logo" href="#">
+          <img className="navbar-brand" src="pokemonion-logo.png" alt="" />
         </a>
         <div className="navBtns">
           <ul>
