@@ -1,12 +1,12 @@
 nav {
-  background-color: rgb(251, 251, 251);
+  background-color: rgb(69 78 103);
   display: flex;
   justify-content: space-between;
   height: 70px;
   align-items: center;
 }
 .navbar-brand {
-  width: 200px;
+  width: 300px;
 }
 li {
   list-style: none;
@@ -25,16 +25,16 @@ ul {
   height: 50px;
   border-style: none;
   border-radius: 10px;
-  color: rgb(7 104 159);
+  color: rgb(238 228 10);
   font-size: 1.4rem;
 }
 
 .btnNav:hover {
-  box-shadow: 0 0 10px black;
+  /* box-shadow: 0 0 10px black; */
+  text-shadow: 0 0 10px rgb(255 126 103);
+  color: white;
 }
 
-.cartContenedor {
-  width: 5%;
-  text-align: end;
-  margin-right: 10px;
+.logo {
+  height: 70px;
 }
