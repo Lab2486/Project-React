@@ -1,0 +1,11 @@
+.countContainer {
+  width: 100%;
+  text-align: center;
+}
+.countBtnsConteiner {
+  display: flex;
+  justify-content: space-evenly;
+}
+.countBtns {
+  width: 20px;
+}
