@@ -10,7 +10,7 @@ function App() {
 
       <ItemListContainer
         greeting="Bienvenido a PokemOnion el sition donde podras comprar pokemones rescatados de manera 100% legal 😉"
-        bgColor="pink"
+        bgColor="white"
       >
         <Item></Item>
       </ItemListContainer>
