@@ -1,35 +1,76 @@
 .itemBody {
-  background-color: aqua;
-  width: 15%;
-  height: 350px;
+  background: rgb(24, 149, 32);
+  background: linear-gradient(
+    0deg,
+    rgba(24, 149, 32, 1) 0%,
+    rgba(30, 154, 59, 1) 31%,
+    rgba(41, 189, 89, 1) 55%,
+    rgba(20, 179, 111, 1) 66%,
+    rgba(221, 190, 87, 1) 72%,
+    rgba(45, 131, 247, 1) 85%,
+    rgba(78, 50, 218, 1) 100%
+  );
+  width: 19%;
+
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
-  border: 1px solid red;
+  border: 5px solid black;
   margin-bottom: 20px;
   padding: 15px 0;
   border-radius: 10px;
 }
 
 .itemTitle {
-  background-color: gray;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 500;
   width: 100%;
+  font-family: monospace;
   text-align: center;
   height: 20px;
   margin: 0;
+  text-shadow: 0 0 10px white;
 }
 .itemInfo {
   text-align: center;
-  background-color: rgb(211, 84, 105);
   margin: 0;
+  height: 50%;
+  color: white;
+  width: 90%;
+  margin: 0;
+  font-family: monospace;
+  text-shadow: 0 0 10px black;
 }
 .itemPrice {
   margin: 0;
+  color: white;
+  font-family: monospace;
+  margin: 10px 0;
+  text-shadow: 0 0 5px black;
 }
 .itemImg {
   width: 90%;
   height: 90%;
-  background-color: rgb(9, 57, 57);
-  border-radius: 50%;
+}
+.itemImg:hover {
+  transform: scale(1.1);
+}
+.itemType {
+  color: white;
+  margin: 10px 0;
+  font-family: monospace;
+  text-shadow: 0 0 5px black;
+  font-size: 1rem;
+}
+.itemType strong {
+  text-shadow: 0 0 5px white;
+}
+
+.itemID {
+  color: white;
+  margin: 5px 0;
+  font-family: monospace;
+  text-shadow: 0 0 5px black;
 }

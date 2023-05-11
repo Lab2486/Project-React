@@ -30,7 +30,7 @@ function ItemCount({ stock }) {
         </button>
       </div>
       <div>
-        <button>Add to Bag</button>
+        <button className="buyBtn">Add to Bag</button>
       </div>
     </div>
   );

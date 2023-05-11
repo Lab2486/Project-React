@@ -1,6 +1,7 @@
 .countContainer {
   width: 100%;
   text-align: center;
+  color: white;
 }
 .countBtnsConteiner {
   display: flex;
@@ -8,4 +9,13 @@
 }
 .countBtns {
   width: 20px;
+  border-radius: 5px;
+  border: none;
+}
+.buyBtn {
+  width: 40%;
+  margin: 5px 0;
+  height: 30px;
+  border-radius: 10px;
+  border: none;
 }
