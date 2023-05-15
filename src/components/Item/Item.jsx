@@ -9,10 +9,11 @@ function Item(props) {
       <p className="itemType">
         Type: <strong>{props.type}</strong>
       </p>
-      <p className="itemInfo">{props.info}</p>
+      {/* <p className="itemInfo">{props.info}</p> */}
       <p className="itemPrice">${props.price}</p>
       {/* <ItemCount stock={7}></ItemCount> */}
-      <p className="itemID">Id:{props.id}</p>
+      {/* <p className="itemID">Id:{props.id}</p> */}
+      <button>View Details</button>
     </div>
   );
 }
