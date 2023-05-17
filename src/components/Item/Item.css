@@ -53,6 +53,7 @@
 .itemImg {
   width: 90%;
   height: 90%;
+  image-rendering: pixelated;
 }
 .itemImg:hover {
   transform: scale(1.1);

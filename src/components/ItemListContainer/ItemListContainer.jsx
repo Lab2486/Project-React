@@ -1,7 +1,5 @@
-// import Item from "../Item/Item";
 import ItemList from "../ItemList/ItemList";
 import "./ItemLIstContainer.css";
-// import pokemons from "../../data/pokemons";
 
 function ItemListContainer(props) {
   const ItemListContainerBg = { background: props.bgColor };

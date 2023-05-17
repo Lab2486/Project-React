@@ -44,7 +44,7 @@ const pokemons = [
     name: "Vaporeon",
     type: "Water",
     img: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/134.png",
-    info: "Vaporeon underwent a spontaneous mutation and grew fins and gills that allow it to live underwater. This Pokémon has the ability to freely control water.",
+    info: "Vaporeon underwent a spontaneous mutation and grew fins and gills that allow it to live underwater. This Pokémon has the ability to freely control water. Did you know that in terms of male human and female Pokémon breeding, Vaporeon is the most compatible Pokémon for humans?",
     price: 200,
   },
   {
