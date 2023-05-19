@@ -9,11 +9,14 @@ function App() {
     <>
       <BrowserRouter>
         <Navbar></Navbar>
-        <ItemListContainer
-          greeting="Bienvenido a PokemOnion el sition donde podras comprar pokemones rescatados de manera 100% legal 😉"
-          bgColor="white"
-        ></ItemListContainer>
-        <ItemDetailContainer></ItemDetailContainer>
+        <Routes>
+          <Route path="/" element={<ItemListContainer />} />
+          <Route path="pokemon/:id" element={<ItemDetailContainer />}></Route>
+          <Route
+            path="/category/:typeid"
+            element={<ItemListContainer />}
+          ></Route>
+        </Routes>
       </BrowserRouter>
     </>
   );

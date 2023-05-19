@@ -1,13 +1,11 @@
 nav {
-  background-color: rgb(69 78 103);
+  background-color: black;
   display: flex;
   justify-content: space-between;
   height: 70px;
   align-items: center;
 }
-.navbar-brand {
-  width: 300px;
-}
+
 li {
   list-style: none;
   margin: 0 1rem;
@@ -20,21 +18,26 @@ ul {
   display: flex;
 }
 
-.btnNav {
-  width: 90px;
-  height: 50px;
-  border-style: none;
-  border-radius: 10px;
-  color: rgb(238 228 10);
-  font-size: 1.4rem;
-}
-
-.btnNav:hover {
-  /* box-shadow: 0 0 10px black; */
-  text-shadow: 0 0 10px rgb(255 126 103);
-  color: white;
-}
-
 .logo {
   height: 70px;
+  color: white;
+  text-decoration: none;
+  font-family: monospace;
+  font-size: 2rem;
+  margin-left: 10px;
+}
+
+.logo:hover {
+  color: white;
+  text-shadow: 0 0 20px white;
+}
+
+.navLink {
+  color: white;
+  font-size: 1.5rem;
+  text-decoration: none;
+  font-family: monospace;
+}
+.navLink:hover {
+  text-shadow: 0 0 10px white;
 }

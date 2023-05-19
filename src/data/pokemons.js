@@ -2,7 +2,7 @@ const pokemons = [
   {
     id: 1,
     name: "Bulbasaur",
-    type: "Grass/Poison",
+    type: "Grass",
     img: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
     info: "Bulbasaur can be seen napping in bright sunlight. There is a seed on its back. By soaking up the sun's rays, the seed grows progressively larger.",
     price: 200,
@@ -66,7 +66,7 @@ const pokemons = [
   {
     id: 9,
     name: "Dragonite",
-    type: "Dragon/Flying",
+    type: "Dragon",
     img: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/149.png",
     info: "Dragonite is capable of circling the globe in just 16 hours. It is a kindhearted Pokémon with human-like intelligence. It shows signs of altruism, such as rescuing drowning people and carrying injured Pokémon to shore.",
     price: 200,
@@ -74,7 +74,7 @@ const pokemons = [
   {
     id: 10,
     name: "Gengar",
-    type: "Ghost/Poison",
+    type: "Ghost",
     img: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/94.png",
     info: "On the night of a full moon, if shadows move on their own and laugh, it must be Gengar's doing. It is said that if Gengar is hiding, it cools the area by nearly 10 degrees Fahrenheit.",
     price: 200,

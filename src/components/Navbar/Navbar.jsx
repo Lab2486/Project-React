@@ -1,45 +1,57 @@
 import "./NavbarStyles.css";
-import Button from "./Buttons";
 import CartWidget from "../Cart/CartWidget";
-function All() {
-  alert("All Pochimons");
-}
-function Fire() {
-  alert("Fire Pochimons");
-}
-function Water() {
-  alert("Water Pochimons");
-}
-function Electric() {
-  alert("Electric Pochimons");
-}
-function Plant() {
-  alert("Plant Pochimons");
-}
+import { Link } from "react-router-dom";
 
 function Navbar() {
   return (
     <>
       <nav>
-        <a className="logo" href="#">
-          <img className="navbar-brand" src="pokemonion-logo.png" alt="" />
-        </a>
+        <h1>
+          <Link className="logo" to="/">
+            PokemOnion
+          </Link>
+        </h1>
         <div className="navBtns">
           <ul>
             <li>
-              <Button color="none" texto="All" onClick={All} />
+              <Link className="navLink" to="/">
+                All
+              </Link>
             </li>
             <li>
-              <Button color="none" texto="Fire" onClick={Fire} />
+              <Link to="/category/Fire" className="navLink">
+                Fire
+              </Link>
             </li>
             <li>
-              <Button color="none" texto="Water" onClick={Water} />
+              <Link to="/category/Water" className="navLink">
+                Water
+              </Link>
             </li>
             <li>
-              <Button color="none" texto="Electric" onClick={Electric} />
+              <Link to="/category/Electric" className="navLink">
+                Electric
+              </Link>
             </li>
             <li>
-              <Button color="none" texto="Plant" onClick={Plant} />
+              <Link to="/category/Grass" className="navLink">
+                Grass
+              </Link>
+            </li>
+            <li>
+              <Link to="/category/Normal" className="navLink">
+                Normal
+              </Link>
+            </li>
+            <li>
+              <Link to="/category/Dragon" className="navLink">
+                Dragon
+              </Link>
+            </li>
+            <li>
+              <Link to="/category/Ghost" className="navLink">
+                Ghost
+              </Link>
             </li>
           </ul>
         </div>
