@@ -41,3 +41,19 @@ ul {
 .navLink:hover {
   text-shadow: 0 0 10px white;
 }
+
+.detailsBtn {
+  width: 120px;
+  height: 30px;
+  border: none;
+  border-radius: 10px;
+  font-family: monospace;
+  background-color: darkkhaki;
+  color: white;
+}
+
+.detailsBtn:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 10px white;
+  text-shadow: 0 0 5px black;
+}

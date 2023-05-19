@@ -11,7 +11,7 @@ function Item(props) {
         </p>
         <p className="itemPrice">${props.price}</p>
         <Link to={`/pokemon/${props.id}`}>
-          <button>View Details</button>
+          <button className="detailsBtn">View Details</button>
         </Link>
       </div>
     </>
