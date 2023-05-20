@@ -31,7 +31,7 @@ function ItemDetailContainer() {
           <button className="detailCloseBtn">X</button>
         </Link>
         <h2 className="detailTitle">{pokemon.name}</h2>
-        <p className="detailType">Type: {pokemon.type}</p>
+        <p className="detailType">Type: {pokemon.category}</p>
         <p className="detailInfo">{pokemon.info}</p>
         <p className="detailPrice">$:{pokemon.price}</p>
         <img className="detailImg" src={pokemon.img} alt={pokemon.name} />

@@ -13,7 +13,7 @@ function App() {
           <Route path="/" element={<ItemListContainer />} />
           <Route path="pokemon/:id" element={<ItemDetailContainer />}></Route>
           <Route
-            path="/category/:typeid"
+            path="/category/:categoryid"
             element={<ItemListContainer />}
           ></Route>
         </Routes>

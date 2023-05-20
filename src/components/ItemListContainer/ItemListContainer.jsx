@@ -6,28 +6,29 @@ import { useParams } from "react-router-dom";
 
 function getPokeData() {
   return new Promise((resolve) => {
-    setTimeout(() => resolve(pokemons)), 1000;
+    setTimeout(() => resolve(pokemons), 1000);
   });
 }
 
+
 function ItemListContainer() {
-  let [pokemon, setPokemon] = useState([]);
+  let [products, setProducts] = useState([]);
   const { categoryid } = useParams();
 
   useEffect(() => {
     getPokeData().then((respuesta) => {
       if (categoryid) {
         const filterProducts = respuesta.filter(
-          (item) => item.type === categoryid
+          (item) => item.category === categoryid
         );
-        setPokemon(filterProducts);
+        setProducts(filterProducts);
       } else {
-        setPokemon(respuesta);
+        setProducts(respuesta);
       }
     });
   }, [categoryid]);
 
-  return <ItemList pokemones={pokemon} />;
+  return <ItemList products={products} />;
 }
 
 export default ItemListContainer;

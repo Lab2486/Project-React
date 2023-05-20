@@ -2,7 +2,7 @@ const pokemons = [
   {
     id: 1,
     name: "Bulbasaur",
-    type: "Grass",
+    category: "Grass",
     img: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
     info: "Bulbasaur can be seen napping in bright sunlight. There is a seed on its back. By soaking up the sun's rays, the seed grows progressively larger.",
     price: 200,
@@ -10,7 +10,7 @@ const pokemons = [
   {
     id: 2,
     name: "Charmander",
-    type: "Fire",
+    category: "Fire",
     img: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/4.png",
     info: "The flame that burns at the tip of its tail is an indication of its emotions. The flame wavers when Charmander is enjoying itself. If the Pokémon becomes enraged, the flame burns fiercely.",
     price: 200,
@@ -18,7 +18,7 @@ const pokemons = [
   {
     id: 3,
     name: "Squirtle",
-    type: "Water",
+    category: "Water",
     img: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/7.png",
     info: "Squirtle's shell is not merely used for protection. The shell's rounded shape and the grooves on its surface help minimize resistance in water, enabling this Pokémon to swim at high speeds.",
     price: 200,
@@ -26,7 +26,7 @@ const pokemons = [
   {
     id: 4,
     name: "Pikachu",
-    type: "Electric",
+    category: "Electric",
     img: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png",
     info: "Whenever Pikachu comes across something new, it blasts it with a jolt of electricity. If you come across a blackened berry, it's evidence that this Pokémon mistook the intensity of its charge.",
     price: 200,
@@ -34,7 +34,7 @@ const pokemons = [
   {
     id: 5,
     name: "Eevee",
-    type: "Normal",
+    category: "Normal",
     img: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/133.png",
     info: "Eevee has an unstable genetic makeup that suddenly mutates due to the environment in which it lives. Radiation from various stones causes this Pokémon to evolve.",
     price: 200,
@@ -42,7 +42,7 @@ const pokemons = [
   {
     id: 6,
     name: "Vaporeon",
-    type: "Water",
+    category: "Water",
     img: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/134.png",
     info: "Vaporeon underwent a spontaneous mutation and grew fins and gills that allow it to live underwater. This Pokémon has the ability to freely control water. Did you know that in terms of male human and female Pokémon breeding, Vaporeon is the most compatible Pokémon for humans?",
     price: 200,
@@ -50,7 +50,7 @@ const pokemons = [
   {
     id: 7,
     name: "Jolteon",
-    type: "Electric",
+    category: "Electric",
     img: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/135.png",
     info: "Jolteon's cells generate a low level of electricity. This power is amplified by the static electricity of its fur, enabling the Pokémon to drop thunderbolts. The bristling fur is made of electrically charged needles.",
     price: 200,
@@ -58,7 +58,7 @@ const pokemons = [
   {
     id: 8,
     name: "Flareon",
-    type: "Fire",
+    category: "Fire",
     img: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/136.png",
     info: "Flareon's fluffy fur has a functional purpose—it releases heat into the air so that its body does not get excessively hot. This Pokémon's body temperature can rise to a maximum of 1,650 degrees Fahrenheit.",
     price: 200,
@@ -66,7 +66,7 @@ const pokemons = [
   {
     id: 9,
     name: "Dragonite",
-    type: "Dragon",
+    category: "Dragon",
     img: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/149.png",
     info: "Dragonite is capable of circling the globe in just 16 hours. It is a kindhearted Pokémon with human-like intelligence. It shows signs of altruism, such as rescuing drowning people and carrying injured Pokémon to shore.",
     price: 200,
@@ -74,7 +74,7 @@ const pokemons = [
   {
     id: 10,
     name: "Gengar",
-    type: "Ghost",
+    category: "Ghost",
     img: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/94.png",
     info: "On the night of a full moon, if shadows move on their own and laugh, it must be Gengar's doing. It is said that if Gengar is hiding, it cools the area by nearly 10 degrees Fahrenheit.",
     price: 200,
