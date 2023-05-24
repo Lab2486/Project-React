@@ -23,6 +23,10 @@ function ItemDetail() {
       setPokemon(respuesta);
     });
   }, []);
+
+  function onAddToCart(count) {
+    alert(`Agregaste ${count} ${pokemon.name} al carrito`);
+  }
   return (
     <div className="itemDetail">
       <Link to="/">
@@ -33,7 +37,7 @@ function ItemDetail() {
       <p className="detailInfo">{pokemon.info}</p>
       <p className="detailPrice">$:{pokemon.price}</p>
       <img className="detailImg" src={pokemon.img} alt={pokemon.name} />
-      <ItemCount stock={4} />
+      <ItemCount onAddToCart={onAddToCart} stock={4} />
     </div>
   );
 }
