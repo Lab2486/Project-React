@@ -58,4 +58,15 @@
   width: 20px;
   margin-left: 800px;
   cursor: pointer;
+  background-color: white;
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+  font-family: monospace;
+  font-size: 1rem;
+}
+.detailCloseBtn:hover {
+  background-color: black;
+  color: red;
+  transition: 1s;
 }
