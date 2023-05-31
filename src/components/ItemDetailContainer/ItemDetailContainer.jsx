@@ -27,8 +27,8 @@ function ItemDetailContainer() {
   return (
     <div className="detailContainer">
       <div className="itemDetail">
-        <Link to="/">
-          <button className="detailCloseBtn">X</button>
+        <Link to="/" className="detailCloseBtn">
+          X
         </Link>
         <h2 className="detailTitle">{pokemon.name}</h2>
         <p className="detailType">Type: {pokemon.category}</p>

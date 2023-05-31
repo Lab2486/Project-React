@@ -10,8 +10,8 @@ function Item(props) {
           Type: <strong>{props.type}</strong>
         </p>
         <p className="itemPrice">${props.price}</p>
-        <Link to={`/pokemon/${props.id}`}>
-          <button className="detailsBtn">View Details</button>
+        <Link to={`/pokemon/${props.id}`} className="detailsBtn">
+          View Details
         </Link>
       </div>
     </>
